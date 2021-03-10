@@ -10,8 +10,8 @@ namespace HelloWorldd7
     {
         public double A, B, C;
 
-
-        public double Area()
+        //Método é basicamente uma função dentro de uma classe:
+        public double Area() //Nesse método não precisou de parametros dentro dos '()' porque 'A, B, C' já estão declarado dentro da classe.
         {
             double p = (A + B + C) / 2;
             return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
